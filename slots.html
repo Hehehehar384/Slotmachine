@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slots Spiel</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+    #slot-machine {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: 300px;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    #lever {
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 28px;
+    }
+    #result {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .jackpot {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="slot-machine">
+    <h1>Slots Spiel</h1>
+    <div id="lever" onclick="spin()">&#x1F3A9;</div>
+    <div id="result"></div>
+  </div>
 
+  <script src="script.js"></script>
+</body>
+</html>
